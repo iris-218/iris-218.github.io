@@ -1,0 +1,124 @@
+img{
+    max-width: 100%;
+    display: flex;
+}
+
+.logo{
+    max-width: 500px;
+}
+.contenedor_carrusel{
+    max-width: 600px;
+    margin: 0 auto;
+    border:5px solid #abc4ff;
+}
+section{
+    margin: 15px;
+    background-color: #edf2fb
+}
+p{
+    color: #0cbccc;
+}
+.contenedor_limite{
+   
+    max-width: 1800px;
+    margin: 0 auto;
+    background-color: #ccdbfd;
+    
+}
+.card{
+    background-color: #edf2fb;
+    width: 200px;/*ancho */
+    border:5px solid #abc4ff;
+    padding: 10px ;
+    border-radius: 15px; 
+    text-align: center; 
+
+}
+.card h2{
+        font-family: "Rubik Moonrocks", serif;
+        font-weight: 400;
+        font-style: normal;
+}
+      
+
+.card p{
+    color: #7d9ab3;
+}
+/*GRILLAS*/
+.parent {
+    margin: 0 auto;
+    max-width: 600px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;
+    }
+    
+    .div1 {
+         grid-area: 1 / 1 / 3 / 3; 
+        }
+        .div1:hover{
+            transform: scale(1.2);
+        
+        }
+    .div2 { 
+        grid-area: 1 / 3 / 3 / 5; 
+    }
+    .div2 img{
+        width: 100%;
+        
+    }
+    .div2:hover{
+        transform: scale(1.2);
+    
+    }
+    
+    .div3 { 
+        grid-area: 3 / 1 / 5 / 3;
+     }
+    .div3 img{
+        width: 100%;
+       
+    }
+    .div3:hover{
+        transform: scale(1.2);
+    
+    }
+    .div4 {
+         grid-area: 3 / 3 / 5 / 5; 
+        }
+        .div4 img{
+            width: 100%;
+          
+        }
+        .div4:hover{
+            transform: scale(1.2);
+        
+        }
+    .div5 {
+         grid-area: 5 / 1 / 7 / 3;
+         }
+        .div5 img{
+            width: 90%;
+           
+        }
+        .div5:hover{
+            transform: scale(1.2);
+        
+        }
+    .div6 { grid-area: 5 / 3 / 7 / 5; }
+    .div6 img{
+        width: 100%;
+        
+    }
+    .div6:hover{
+        transform: scale(1.2);
+    
+    }
+    footer p{
+        font-size: 10px;
+    }
+    
+
+
